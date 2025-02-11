@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: passport-saml
+  description: SAML 2.0 authentication with Passport
+  annotations:
+    business-unit: EverHealth
+    github.com/project-slug: updox/passport-saml
+    product: UPD
+spec:
+  type: service
+  lifecycle: production
+  owner: EverHealth
+  implementation:
+    languages:
+    - JavaScript
